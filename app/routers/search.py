@@ -6,11 +6,21 @@ router = APIRouter(prefix="/search", tags=["search"])
 store = RAGStore()
 _store_loaded = False
 
+
 def ensure_loaded():
     global _store_loaded
     if not _store_loaded:
         store.load()
         _store_loaded = True
+
+
+@router.post("", response_model=SearchOut)
+def search(in_: SearchIn):
+    ensure_loaded()
+    filters = in_.filters.model_dump() if in_.filters else {}
+    hits = store.search(in_.query, top_k=in_.top_k or 12, filters=filters)
+    return SearchOut(query=in_.query, hits=[Chunk(**h) for h in hits])
+
 
 @router.post("/generate-template")
 def generate_template(inp: TemplateIn):
