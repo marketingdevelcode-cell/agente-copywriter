@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "title": "Objeção — Tecnologia Errada",
+      "content": "Risco de escolher tecnologia errada. Resposta: PoC com KPIs e critérios de decisão antes de expandir.",
+      "metadata": {
+        "objective": [
+          "mitigar_risco"
+        ],
+        "tone": [
+          "consultivo"
+        ],
+        "format": [
+          "email",
+          "landing_page",
+          "post"
+        ],
+        "funnel_stage": [
+          "consideration"
+        ]
+      }
+    },
+    {
+      "title": "Objeção — Lock-in",
+      "content": "Medo de lock-in. Resposta: arquitetura aberta + cláusulas de reversibilidade no contrato.",
+      "metadata": {
+        "objective": [
+          "mitigar_risco"
+        ],
+        "tone": [
+          "direto"
+        ],
+        "format": [
+          "email",
+          "landing_page"
+        ],
+        "funnel_stage": [
+          "consideration",
+          "decision"
+        ]
+      }
+    },
+    {
+      "title": "Objeção — ROI Incerto",
+      "content": "Incerteza de ROI. Resposta: business case com baseline, metas e marcos de validação trimestrais.",
+      "metadata": {
+        "objective": [
+          "provar_ROI"
+        ],
+        "tone": [
+          "consultivo"
+        ],
+        "format": [
+          "email",
+          "post",
+          "landing_page"
+        ],
+        "funnel_stage": [
+          "consideration",
+          "decision"
+        ]
+      }
+    }
+  ]
+}

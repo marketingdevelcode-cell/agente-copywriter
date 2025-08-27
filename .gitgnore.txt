@@ -1,0 +1,16 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+
+# Ambiente
+.env
+
+# Índices/artefatos gerados
+data/index/
+
+# SO / editor
+.DS_Store
+.vscode/
+.idea/
+

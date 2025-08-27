@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "title": "Headlines — Dor Board",
+      "content": "Evite paralisia por análise: seu roadmap de IA defensável.",
+      "metadata": {
+        "persona": [
+          "modernizador_cauteloso",
+          "estrategista_cetico"
+        ],
+        "funnel_stage": [
+          "awareness",
+          "consideration"
+        ],
+        "objective": [
+          "mitigar_risco"
+        ],
+        "triggers": [
+          "reuniao_board"
+        ],
+        "format": [
+          "email",
+          "post",
+          "landing_page"
+        ],
+        "tone": [
+          "consultivo",
+          "direto"
+        ]
+      }
+    },
+    {
+      "title": "Headlines — Curiosidade",
+      "content": "O playbook que CIOs usam para apresentar IA ao board sem lock-in.",
+      "metadata": {
+        "persona": [
+          "modernizador_cauteloso"
+        ],
+        "funnel_stage": [
+          "awareness"
+        ],
+        "objective": [
+          "mitigar_risco",
+          "provar_ROI"
+        ],
+        "triggers": [
+          "reuniao_board"
+        ],
+        "format": [
+          "post",
+          "landing_page"
+        ],
+        "tone": [
+          "consultivo"
+        ]
+      }
+    },
+    {
+      "title": "Headlines — Desejo",
+      "content": "Transforme TI em motor de valor: um quick win de IA com ROI mensurável em 90 dias.",
+      "metadata": {
+        "persona": [
+          "modernizador_cauteloso"
+        ],
+        "funnel_stage": [
+          "consideration",
+          "decision"
+        ],
+        "objective": [
+          "provar_ROI"
+        ],
+        "format": [
+          "email",
+          "landing_page"
+        ],
+        "tone": [
+          "consultivo"
+        ]
+      }
+    }
+  ]
+}
